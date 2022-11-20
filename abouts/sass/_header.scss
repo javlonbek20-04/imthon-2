@@ -1,0 +1,112 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+
+    .nav__menu {
+        display: block;
+        position: absolute;
+        left: -1000px;
+    }
+
+    .scoot__nav {
+        display: flex;
+        gap: 58.18px;
+
+        img {
+            text-align: center;
+            margin-top: -5px;
+        }
+
+        .nav__list {
+            display: flex;
+            gap: 32px;
+
+            li a {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                color: #939CAA;
+
+                &:hover {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #FCB72B;
+                }
+            }
+        }
+    }
+
+    .nav__btn {
+        button {
+            height: 53px;
+            width: 180px;
+            background: #FCB72B;
+            border: #FCB72B;
+
+            &:hover {
+                background-color: #FFFFFF;
+                border: 3px solid #FCB72B;
+
+                & a {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #FCB72B;
+                }
+            }
+        }
+
+        & a {
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+
+        }
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        .nav__menu {
+            display: block;
+            position: relative;
+            left: 0px;
+        }
+
+        .scoot__nav {
+            position: relative;
+            left: -70px;
+        }
+
+        .scoot__nav {
+            .nav__list {
+                display: none;
+            }
+        }
+
+        .nav__btn {
+            display: none;
+        }
+    }
+}

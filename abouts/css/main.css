@@ -1,0 +1,917 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 96px;
+}
+.nav .nav__menu {
+  display: block;
+  position: absolute;
+  left: -1000px;
+}
+.nav .scoot__nav {
+  display: flex;
+  gap: 58.18px;
+}
+.nav .scoot__nav img {
+  text-align: center;
+  margin-top: -5px;
+}
+.nav .scoot__nav .nav__list {
+  display: flex;
+  gap: 32px;
+}
+.nav .scoot__nav .nav__list li a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.nav .scoot__nav .nav__list li a:hover {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FCB72B;
+}
+.nav .nav__btn button {
+  height: 53px;
+  width: 180px;
+  background: #FCB72B;
+  border: #FCB72B;
+}
+.nav .nav__btn button:hover {
+  background-color: #FFFFFF;
+  border: 3px solid #FCB72B;
+}
+.nav .nav__btn button:hover a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FCB72B;
+}
+.nav .nav__btn a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about {
+  background-image: url(../img/about-img.jpg);
+  height: 200px;
+  width: 1440px;
+}
+.about .about_text {
+  position: relative;
+  left: 165px;
+  top: 72px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+.mobility {
+  display: flex;
+  position: relative;
+  top: 120px;
+  left: 165px;
+  gap: 190px;
+}
+.mobility .mobility_texts .mobility_text {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.mobility .mobility_texts .mobility_p {
+  position: relative;
+  top: 24px;
+  width: 445px;
+  height: 75px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.mobility .mobility_img_circle {
+  display: flex;
+  gap: 64px;
+}
+.mobility .mobility_img_circle .moblitiy_img img {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+}
+.mobility .mobility_img_circle .mobility_circle {
+  position: relative;
+  top: -50px;
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  background: #E5ECF4;
+}
+.mobility .mobility_indicator {
+  position: relative;
+  left: -1265px;
+}
+.mobility .mobility_indicator .ind1 {
+  position: relative;
+  top: 155px;
+}
+.mobility .mobility_indicator .ind2 {
+  position: relative;
+  top: 95px;
+  left: 15px;
+}
+
+.better {
+  display: flex;
+  position: relative;
+  top: 80px;
+  gap: 220px;
+  left: -330px;
+}
+.better .better_circle_img {
+  display: flex;
+  gap: 64px;
+}
+.better .better_circle_img .bette_circle {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  background: #E5ECF4;
+}
+.better .better_circle_img .better_img img {
+  border-radius: 50%;
+}
+.better .better_indicator {
+  position: relative;
+  top: 10px;
+  left: -685px;
+}
+.better .better_texts {
+  position: relative;
+  top: 115px;
+}
+.better .better_texts .better_text {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.better .better_texts .better_p {
+  position: relative;
+  top: 24px;
+  width: 445px;
+  height: 75px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.our_values {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 178px;
+}
+.our_values .ov_text {
+  position: relative;
+  width: 540px;
+  height: 48px;
+  left: 450px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.our_values .our_tech_all {
+  display: flex;
+  gap: 72px;
+  position: relative;
+  left: -60px;
+}
+.our_values .our_tech_all .our_tech {
+  position: relative;
+  position: relative;
+  top: 85px;
+}
+.our_values .our_tech_all .our_tech .ot_img {
+  position: relative;
+  left: 246px;
+}
+.our_values .our_tech_all .our_tech .ot_img img {
+  border-radius: 50%;
+}
+.our_values .our_tech_all .our_tech .ot_one_circle {
+  position: relative;
+  top: -40px;
+  left: 326px;
+  align-items: center;
+  text-align: center;
+  height: 96px;
+  width: 96px;
+  background: #FCB72B;
+  border-radius: 50%;
+}
+.our_values .our_tech_all .our_tech .ot_one_circle .ot_one {
+  position: relative;
+  top: 34px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.our_values .our_tech_all .our_tech .ot_texts .ot_text {
+  position: relative;
+  left: 305px;
+  width: 350px;
+  height: 28px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.our_values .our_tech_all .our_tech .ot_texts .ot_p {
+  position: relative;
+  top: 24px;
+  left: 210px;
+  width: 350px;
+  height: 75px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939CAA;
+}
+
+.faqs {
+  position: relative;
+  top: 422px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.faqs .faqs_texts {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #495567;
+}
+.faqs .how_it_works {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  top: 64px;
+  margin-bottom: 64px;
+}
+.faqs .how_it_works .how_it_works_text span {
+  width: 350px;
+  height: 48px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+.faqs .how_it_works .questions {
+  position: relative;
+  left: 180px;
+  text-align: initial;
+}
+.faqs .how_it_works .questions .down_app {
+  display: flex;
+}
+.faqs .how_it_works .questions .down_app .down_app_texts {
+  width: 730px;
+  height: 191px;
+  background: #F2F5F9;
+}
+.faqs .how_it_works .questions .down_app .down_app_texts:hover {
+  background-color: #FFF4DF;
+}
+.faqs .how_it_works .questions .down_app .down_app_texts span {
+  position: relative;
+  top: 32px;
+  left: 40px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.faqs .how_it_works .questions .down_app .down_app_texts p {
+  position: relative;
+  top: 54px;
+  left: 40px;
+  width: 650px;
+  height: 75px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #495567;
+}
+.faqs .how_it_works .questions .down_app .down_app_up {
+  position: relative;
+  left: -40px;
+  top: 40px;
+}
+.faqs .scoots {
+  position: relative;
+  display: flex;
+  margin-bottom: 24px;
+  top: 24px;
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+.faqs .scoots:hover {
+  background-color: #FFF4DF;
+}
+.faqs .scoots .scoots_text {
+  height: 28px;
+  width: 465px;
+}
+.faqs .scoots .scoots_text span {
+  position: relative;
+  left: 40px;
+  top: 32px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.faqs .scoots .scoots_up {
+  position: relative;
+  left: 225px;
+  top: 40px;
+}
+
+.download {
+  display: flex;
+  position: relative;
+  margin-top: 640px;
+  width: 1440px;
+  height: 300px;
+  background: #495567;
+}
+.download .dowload__span {
+  position: relative;
+  width: 415px;
+  height: 96px;
+  left: 165px;
+  top: 102px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+.download .app__google {
+  display: flex;
+  gap: 18px;
+}
+.download .app__google .appstor_down {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 159px;
+  height: 56px;
+  left: 516px;
+  top: 154px;
+  gap: 12px;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+.download .app__google .appstor_down p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+.download .app__google .appstor_down span {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+.download .app__google .googleplay_down {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 159px;
+  height: 56px;
+  left: 516px;
+  top: 154px;
+  gap: 12px;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+.download .app__google .googleplay_down p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+.download .app__google .googleplay_down span {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+.download .download__circle {
+  display: flex;
+  position: absolute;
+  gap: 56px;
+  left: 450px;
+  top: 150px;
+}
+.download .download__circle .down__circle {
+  position: relative;
+  width: 347px;
+  height: 347px;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  border: 15px solid #E5ECF4;
+  border-radius: 50%;
+}
+.download .download__circle .down__circles {
+  position: relative;
+  width: 347px;
+  height: 347px;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  border: 15px solid #E5ECF4;
+  background-color: #898989;
+  border-radius: 50%;
+}
+
+.foter__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
+  height: 96px;
+  background: #333A44;
+}
+.foter__container .footer_scoot {
+  position: relative;
+  left: -70px;
+  display: flex;
+  gap: 59px;
+}
+.foter__container .footer_scoot img {
+  width: 107.82px;
+  height: 28.56px;
+}
+.foter__container .footer_scoot .footer__list {
+  display: flex;
+  gap: 32px;
+}
+.foter__container .footer_scoot .footer__list li a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.foter__container .footer_scoot .footer__list li a:hover {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FCB72B;
+}
+.foter__container .footer__icons {
+  display: flex;
+  position: relative;
+  left: 55px;
+  gap: 24px;
+}
+.foter__container .footer__icons img {
+  width: 24px;
+  height: 24px;
+}
+.foter__container .footer__icons img:hover {
+  background-color: #E5ECF4;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .about {
+    background-image: url(../img/tablet/tablet-about.jpg);
+  }
+  .mobility {
+    display: block;
+  }
+  .mobility .mobility_img_circle {
+    position: relative;
+    top: -120px;
+  }
+  .mobility .mobility_texts {
+    position: relative;
+    top: 485px;
+    text-align: center;
+  }
+  .mobility .mobility_indicator {
+    position: relative;
+    left: -140px;
+    top: -515px;
+  }
+  .better {
+    display: block;
+  }
+  .better .better_circle_img {
+    position: relative;
+    left: 500px;
+  }
+  .better .better_circle_img .bette_circle {
+    position: absolute;
+    left: -505px;
+  }
+  .better .better_texts {
+    position: relative;
+    left: 500px;
+    top: 50px;
+    text-align: center;
+  }
+  .our_values {
+    position: relative;
+    margin-top: 110px;
+  }
+  .our_values .ov_text {
+    position: relative;
+    left: 120px;
+  }
+  .our_values .our_tech_all {
+    display: block;
+    position: relative;
+    left: 25px;
+  }
+  .our_values .our_tech_all .our_tech {
+    position: relative;
+    margin-bottom: 80px;
+  }
+  .faqs .how_it_works {
+    display: block;
+  }
+  .faqs .how_it_works .questions {
+    position: relative;
+    left: 20px;
+    margin-top: 30px;
+  }
+  .download {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 400px;
+    height: 300px;
+    width: 768px;
+  }
+  .download .app__google {
+    position: relative;
+    top: -55px;
+    right: 295px;
+  }
+  .download .download__circle {
+    position: absolute;
+    margin-left: -650px;
+    top: 140px;
+  }
+  .download .dowload__span {
+    position: relative;
+    top: 62px;
+    width: 457px;
+    height: 96px;
+    left: 155px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+  }
+  .foter__container {
+    position: relative;
+    margin-top: 0px;
+  }
+  .foter__container .footer_scoot {
+    position: relative;
+    left: 10px;
+  }
+  .foter__container .footer__icons {
+    position: relative;
+    left: -10px;
+  }
+  .foter__container .footer__icons img:hover {
+    background-color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .nav .nav__menu {
+    display: block;
+    position: relative;
+    left: 0px;
+  }
+  .nav .scoot__nav {
+    position: relative;
+    left: -70px;
+  }
+  .nav .scoot__nav .nav__list {
+    display: none;
+  }
+  .nav .nav__btn {
+    display: none;
+  }
+  .about {
+    background-image: url(../img/mobile/mobile-about.jpg);
+  }
+  .about .about_text {
+    position: relative;
+    left: 106px;
+  }
+  .mobility .mobility_texts {
+    position: relative;
+    left: -132px;
+    top: 360px;
+  }
+  .mobility .mobility_texts .mobility_text {
+    width: 311px;
+    height: 64px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #495567;
+  }
+  .mobility .mobility_texts .mobility_p {
+    width: 311px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+  }
+  .mobility .mobility_img_circle .moblitiy_img {
+    position: relative;
+    left: -132px;
+  }
+  .mobility .mobility_img_circle .moblitiy_img img {
+    height: 311px;
+    width: 311px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 50%;
+  }
+  .mobility .mobility_indicator {
+    position: relative;
+    top: -635px;
+  }
+  .better {
+    position: relative;
+    left: 22px;
+  }
+  .better .better_circle_img {
+    position: relative;
+    left: 10px;
+  }
+  .better .better_circle_img .better_indicator {
+    position: relative;
+    left: -410px;
+  }
+  .better .better_circle_img .better_img img {
+    width: 311px;
+    height: 311px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .better .better_texts {
+    position: relative;
+    left: 10px;
+  }
+  .better .better_texts .better_text {
+    width: 311px;
+    height: 64px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #495567;
+  }
+  .better .better_texts .better_p {
+    width: 311px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+  }
+  .our_values {
+    position: relative;
+    left: -200px;
+  }
+  .faqs .how_it_works .questions {
+    position: relative;
+    left: 7px;
+  }
+  .faqs .how_it_works .questions .down_app {
+    width: 361px;
+    height: 311px;
+    background-color: #F2F5F9;
+  }
+  .faqs .how_it_works .questions .down_app .down_app_texts span {
+    height: 48px;
+    width: 219px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.803571px;
+    color: #495567;
+  }
+  .faqs .how_it_works .questions .down_app .down_app_texts p {
+    width: 251px;
+    height: 175px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #495567;
+  }
+  .faqs .how_it_works .questions .scoots {
+    position: relative;
+    width: 361px;
+    height: 112px;
+  }
+  .download {
+    height: 320px;
+    width: 375px;
+  }
+  .download .dowload__span {
+    width: 311px;
+    height: 64px;
+    left: 32px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #FFFFFF;
+  }
+  .download .app__google {
+    position: relative;
+    left: -498px;
+  }
+  .download .download__circle {
+    position: relative;
+    left: 140px;
+    top: 10px;
+  }
+  .foter__container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 438px;
+    width: 375px;
+  }
+  .foter__container .footer_scoot {
+    display: block;
+  }
+  .foter__container .footer_scoot img {
+    position: relative;
+    top: 64px;
+  }
+  .foter__container .footer_scoot .footer__list {
+    display: block;
+    position: relative;
+    top: 100px;
+  }
+  .foter__container .footer_scoot .footer__list li {
+    margin-bottom: 20px;
+  }
+  .foter__container .footer__icons {
+    margin-top: 200px;
+    left: 140px;
+  }
+}/*# sourceMappingURL=main.css.map */

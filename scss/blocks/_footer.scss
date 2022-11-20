@@ -1,0 +1,117 @@
+.foter__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 96px;
+    background: #333A44;
+
+    .footer_scoot {
+        position: relative;
+        left: -70px;
+        display: flex;
+        gap: 59px;
+
+        img {
+            width: 107.82px;
+            height: 28.56px;
+        }
+
+        .footer__list {
+            display: flex;
+            gap: 32px;
+
+            li a {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                color: #939CAA;
+
+                &:hover {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #FCB72B;
+                }
+            }
+        }
+
+    }
+
+    .footer__icons {
+        display: flex;
+        position: relative;
+        left: 55px;
+        gap: 24px;
+
+        img {
+            width: 24px;
+            height: 24px;
+
+            &:hover {
+                background-color: #E5ECF4;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .foter__container {
+        position: relative;
+        margin-top: 0px;
+
+        .footer_scoot {
+            position: relative;
+            left: 10px;
+        }
+
+        .footer__icons {
+            position: relative;
+            left: -10px;
+
+            img:hover {
+                background-color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .foter__container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 438px;
+        width: 375px;
+
+        .footer_scoot {
+            display: block;
+
+            img {
+                position: relative;
+                top: 64px;
+            }
+
+            .footer__list {
+                display: block;
+                position: relative;
+                top: 100px;
+
+                li {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .footer__icons {
+            margin-top: 200px;
+            left: 140px;
+        }
+
+    }
+}

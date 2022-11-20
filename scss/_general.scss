@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  overflow-x: scroll;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header__btn{
+  padding: 14px 39px 14px 39px;
+  font-size: 15px;
+  font-family:  'Space Mono', serif;
+  background-color:#FCB72B;
+  color: #fff;
+  border: none;
+}
+
+.header__btn:hover{
+  background-color: #fff;
+  border: 3px solid#FCB72B;
+  color:#FCB72B;
+}

@@ -1,0 +1,205 @@
+@media only screen and (max-width: 375px) {
+
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+    .about {
+        background-image: url(../img/mobile/mobile-about.jpg);
+
+        .about_text {
+            position: relative;
+            left: 106px;
+        }
+    }
+
+    .mobility {
+        .mobility_texts {
+            position: relative;
+            left: -132px;
+            top: 360px;
+
+            .mobility_text {
+                width: 311px;
+                height: 64px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: -1.42857px;
+                color: #495567;
+            }
+
+            .mobility_p {
+                width: 311px;
+                height: 100px;
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #939CAA;
+            }
+        }
+
+        .mobility_img_circle {
+            .moblitiy_img {
+                position: relative;
+                left: -132px;
+
+                img {
+                    height: 311px;
+                    width: 311px;
+                    object-fit: contain;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+
+        .mobility_indicator {
+            position: relative;
+            top: -635px;
+        }
+    }
+
+    .better {
+        position: relative;
+        left: 22px;
+
+        .better_circle_img {
+            position: relative;
+            left: 10px;
+
+            .better_indicator {
+                position: relative;
+                left: -410px;
+            }
+
+
+            .better_img {
+                img {
+                    width: 311px;
+                    height: 311px;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .better_texts {
+            position: relative;
+            left: 10px;
+
+            .better_text {
+                width: 311px;
+                height: 64px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: -1.42857px;
+                color: #495567;
+            }
+
+            .better_p {
+                width: 311px;
+                height: 100px;
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #939CAA;
+            }
+        }
+    }
+
+    .our_values {
+        position: relative;
+        left: -200px;
+    }
+
+    .faqs {
+        .how_it_works {
+            .questions {
+                position: relative;
+                left: 7px;
+
+                .down_app {
+                    width: 361px;
+                    height: 311px;
+                    background-color: #F2F5F9;
+
+                    .down_app_texts {
+                        span {
+                            height: 48px;
+                            width: 219px;
+                            font-family: 'Space Mono';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 24px;
+                            letter-spacing: -0.803571px;
+                            color: #495567;
+                        }
+
+                        p {
+                            width: 251px;
+                            height: 175px;
+                            font-family: 'Lexend Deca';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 25px;
+                            color: #495567;
+                        }
+                    }
+                }
+
+                .scoots {
+                    position: relative;
+                    width: 361px;
+                    height: 112px;
+                }
+
+            }
+        }
+    }
+
+    .download {
+        height: 320px;
+        width: 375px;
+
+        .dowload__span {
+            width: 311px;
+            height: 64px;
+            left: 32px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -1.42857px;
+            color: #FFFFFF;
+        }
+
+        .app__google {
+            position: relative;
+            left: -498px;
+        }
+
+        .download__circle {
+            position: relative;
+            left: 140px;
+            top: 10px;
+        }
+    }
+
+}

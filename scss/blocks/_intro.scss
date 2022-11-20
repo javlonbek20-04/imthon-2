@@ -1,0 +1,82 @@
+.intro__content {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    .intro__box {
+
+        .intro__img {
+            margin-bottom: 40px;
+        }
+        .intro__list-headin{
+            font-family: 'Space Mono' , serif;
+            font-size: 24px;
+            padding-bottom: 28px;
+            line-height: 28px;
+            color:#495567;
+        }
+        .intro__list-text{
+            font-family: 'Lexend Deca';
+            font-size: 15px;
+            line-height: 25px;
+            color:  #939CAA;
+            width: 350px;
+        }
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .intro__content {
+        margin-top: 160px;
+        flex-wrap: wrap;
+        align-items: center;
+        .intro__box {
+            display: flex;
+            justify-content: space-between;
+            .intro__img {
+                margin-bottom: 40px;
+                margin-right: 79px;
+            }
+            .intro__list-headin{
+                font-family: 'Space Mono' , serif;
+                font-size: 24px;
+                padding-bottom: 27px;
+                line-height: 28px;
+                color:#495567;
+            }
+            .intro__list-text{
+                font-family: 'Lexend Deca';
+                font-size: 15px;
+                line-height: 25px;
+                color:  #939CAA;
+                width: 400px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:375px){
+    .intro__content {
+        margin-top: 120px;
+        flex-wrap: wrap;
+        text-align: center;
+        .intro__box {
+            flex-wrap: wrap;
+            text-align: center;
+            .intro__img {
+                margin-bottom: 24px;
+                margin-left: 100px;
+            }
+            .intro__list-headin{
+                font-family: 'Space Mono' , serif;
+                font-size: 20px;
+                padding-bottom: 27px;
+            }
+            .intro__list-text{
+                width: 311px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .about {
+        background-image: url(../img/tablet/tablet-about.jpg);
+    }
+
+    .mobility {
+        display: block;
+
+        .mobility_img_circle {
+            position: relative;
+            top: -120px;
+        }
+
+        .mobility_texts {
+            position: relative;
+            top: 485px;
+            text-align: center;
+        }
+
+        .mobility_indicator {
+            position: relative;
+            left: -140px;
+            top: -515px;
+        }
+    }
+
+    .better {
+        display: block;
+
+        .better_circle_img {
+            position: relative;
+            left: 500px;
+
+            .bette_circle {
+                position: absolute;
+                left: -505px;
+            }
+        }
+
+        .better_texts {
+            position: relative;
+            left: 500px;
+            top: 50px;
+            text-align: center;
+        }
+    }
+
+    .our_values {
+        position: relative;
+        margin-top: 110px;
+
+        .ov_text {
+            position: relative;
+            left: 120px;
+        }
+
+        .our_tech_all {
+            display: block;
+            position: relative;
+            left: 25px;
+
+            .our_tech {
+                position: relative;
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    .faqs {
+        .how_it_works {
+            display: block;
+
+            .questions {
+                position: relative;
+                left: 20px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .download {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 400px;
+        height: 300px;
+        width: 768px;
+
+        .app__google {
+            position: relative;
+            top: -55px;
+            right: 295px;
+        }
+
+        .download__circle {
+            position: absolute;
+            margin-left: -650px;
+            top: 140px;
+        }
+
+        .dowload__span {
+            position: relative;
+            top: 62px;
+            width: 457px;
+            height: 96px;
+            left: 155px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -2.14286px;
+            color: #FFFFFF;
+        }
+
+    }
+
+
+}
